@@ -2,31 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan A. Coad | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header>
-      <h1>Your Name</h1>
-      <p>Your tagline goes here</p>
+    <header class="hero">
+      <nav>
+        <h2>Jonathan A. Coad</h2>
+        <div>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <section class="hero-content">
+        <div>
+          <p class="eyebrow">AI-Enabled Learning Designer</p>
+          <h1>Hello, My name is Big Jon.</h1>
+          <p class="tagline">
+            I specialize in designing curriculum design, technical training, and
+            AI-enabled content that helps adult learners obtain real-world
+            skills.
+          </p>
+          <a class="button" href="#projects">View My Work</a>
+        </div>
+
+        <div class="portrait">
+          <img src="images/profile.jpg"Portrait of Jonathan A. Coad" />
+        </div>
+      </section>
     </header>
 
-    <section>
-      <h2>About</h2>
-      <p>Write a short bio about yourself.</p>
-    </section>
+    <main>
+      <section id="about" class="section">
+        <p class="eyebrow">About</p>
+        <h2>Learning design with purpose.</h2>
+        <p>
+          I design scalable, learner-centered training solutions for technical
+          and professional audiences, with a strong focus on aligning content to
+          real-world use cases and performance outcomes. I specialize in
+          translating complex systems and concepts into clear, actionable
+          learning experiences that drive comprehension, application, and
+          long-term retention.
+        </p>
+      </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-      </ul>
-    </section>
+      <section class="section cards">
+        <div class="card">
+          <h3>Curriculum Design</h3>
+          <p>
+            Learning objectives, lesson design, and structured courses that
+            align to measurable outcomes.
+          </p>
+        </div>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: your@email.com</p>
-    </section>
+        <div class="card">
+          <h3>Technical Training</h3>
+          <p>
+            Hands-on learning for security and defense, and technical skills for
+            the workplace.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>AI-Enabled Content</h3>
+          <p>
+            Content workflows, prompt frameworks, and objective-based
+            assessments that enable learner proficiency.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected Work</h2>
+
+        <div class="project">
+          <h3>Certification Curriculum</h3>
+          <p>
+            Designed and developed dozens of courses for Cisco U. (CCNACBR, CNIOS) helping prep future professionals for
+            technical certification.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Course Design</h3>
+          <p>
+            Built and deployed various deliverables for the ADDIE lifecycle, pertaining to a course for designers with AI.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect.</h2>
+        <p>
+          Email: <a href="mailto:your@email.com">Agooodstudent@outlook.com</a>
+        </p>
+      </section>
+    </main>
   </body>
 </html>
