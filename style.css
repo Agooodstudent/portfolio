@@ -66,9 +66,13 @@ h1 {
   margin-bottom: 32px;
 }
 
+.button:hover {
+  opacity: 0.9;
+}
+
 .button {
   display: inline-block;
-  background: #1f2933;
+  background: #010157;
   color: white;
   padding: 14px 24px;
   border-radius: 999px;
@@ -137,6 +141,67 @@ h1 {
   text-decoration: underline;
 }
 
+.project-links {
+  margin-top: 16px;
+}
+
+.project-links a {
+  margin-right: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.testimonials {
+  background: #efe7dc;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.testimonial {
+  background: white;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.testimonial-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.testimonial h4 {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.button.secondary {
+  background: #010157;
+  color: white;
+  border: 2px solid #010157;
+}
+
 @media (max-width: 800px) {
   nav {
     align-items: flex-start;
@@ -150,11 +215,16 @@ h1 {
   }
 
   .hero-content,
-  .cards {
+  .cards,
+  .testimonial-grid {
     grid-template-columns: 1fr;
   }
 
   .portrait {
     min-height: 320px;
+  }
+
+  .testimonial {
+    flex-direction: column;
   }
 }
