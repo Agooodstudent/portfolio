@@ -157,35 +157,4 @@ h1 {
   .portrait {
     min-height: 320px;
   }
-  .project-links {
-  margin-top: 16px;
-}
-
-.project-links a {
-  margin-right: 16px;
-  font-weight: 700;
-  text-decoration: underline;
-}
-
-.testimonials {
-  background: #efe7dc;
-}
-
-.testimonial {
-  background: white;
-  padding: 24px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
-}
-
-.testimonial p {
-  font-style: italic;
-  margin-bottom: 12px;
-}
-
-.testimonial h4 {
-  font-size: 0.9rem;
-  color: #555;
-}
 }
